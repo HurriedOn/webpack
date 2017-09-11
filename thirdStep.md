@@ -18,5 +18,7 @@ export default function printMe(){
 	console.log("I get called from print.js");
 }
 ```
+命令行中运行：
 ```bash
+npm run watch
 ```
