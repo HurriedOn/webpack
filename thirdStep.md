@@ -22,3 +22,4 @@ export default function printMe(){
 ```bash
 npm run watch
 ```
+需要刷新浏览器，才能看到修改后的实际效果
