@@ -161,7 +161,7 @@ webpack.config.js
     * bundle.js
     * index.html
   * src
-    * style.css
+    * style.css
     * index.js
     * robot.png
   * node_modules
