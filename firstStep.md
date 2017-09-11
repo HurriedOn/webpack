@@ -155,17 +155,17 @@ webpack.config.js
 ```
 添加图片到src目录下：
 * webpackDemo
-  * package.json
-  * webpack.config.js
-  * dist
-    * bundle.js
-    * index.html
-  * src
-    * style.css
-    * index.js
-    * robot.png
-  * node_modules
-  
+    * package.json 
+    * webpack.config.js
+    * dist
+        * bundle.js
+        * index.html
+    * src
+        * style.css
+        * index.js
+        * robot.png
+    * node_modules
+
 src/index.js:
 ```js
 import _ from 'lodash';
@@ -228,17 +228,17 @@ module.exports = {
 ```
 在项目中添加一些字体文件：
 * webpackDemo
-  * package.json
-  * webpack.config.js
-  * dist
-    * bundle.js
-    * index.html
-  * src
-    * style.css
-    * index.js
-    * robot.png
-    * FZLTQianXi.ttf
-  * node_modules
+    * package.json 
+    * webpack.config.js
+    * dist
+        * bundle.js
+        * index.html
+    * src
+        * style.css
+        * index.js
+        * robot.png
+	* FZLTQianXi.ttf
+    * node_modules
   
 src/style.css:
  ```css
