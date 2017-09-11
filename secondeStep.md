@@ -96,3 +96,35 @@ module.exports={
 ```bash
 $ webpack --config webpack.config.js
 ```
+## 清理 /dist 文件夹
+ webpack 无法追踪到哪些文件是实际在项目中用到的。通常，在每次构建前清理 /dist 文件夹，是比较推荐的做法。clean-webpack-plugin 是一个比较普及的管理插件，安装：
+ ```bash
+$ npm install clean-webpack-plugin --save-dev
+```
+webpack.config.js：
+```js
+const path=require('path');
+const HtmlWebpackPlugin=require('html-webpack-plugin');
+const CleanWebpackPlugin=require('clean-webpack-plugin');
+module.exports={
+	entry:{
+		app:'./src/index.js',
+		print:'./src/print.js'
+	},
+	plugins:[
+		new CleanWebpackPlugin(['dist']),
+		new HtmlWebpackPlugin({
+			title:'Output Management'
+		})
+	],
+	output:{
+		filename:'[name].bundle.js',
+		path: path.resolve(__dirname, 'dist')
+	}
+};
+
+```
+再次执行构建，通过使用我们的新配置：
+```bash
+$ webpack --config webpack.config.js
+```
