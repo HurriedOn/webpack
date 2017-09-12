@@ -3,13 +3,14 @@ tree shaking 是一个术语，通常用于描述移除 JavaScript 上下文中�
 ### 添加一个通用模块
 新添加文件src/math.js：
 * webpackDeom
-webpack-demo
-|- package.json
-|- webpack.config.js
-|- /dist
-  |- bundle.js
-  |- index.html
-|- /src
-  |- index.js
-  |- math.js
-|- /node_modules
+    * package.json
+    * webpack.config.js
+    * dist
+        * index.html
+        * bundle.js
+    * src
+        * index.js
+        * math.js
+    * node_modules
+src/math.js：
+'''
