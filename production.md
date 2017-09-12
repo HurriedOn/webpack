@@ -56,3 +56,10 @@ module.exports=merge(common,{
 	plugins:[new UglifyJSPlugin()]
 })
 ```
+package.json：
+```json
+"scripts": {
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  }
+```
