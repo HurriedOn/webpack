@@ -12,6 +12,7 @@ tree shaking 是一个术语，通常用于描述移除 JavaScript 上下文中�
         * index.js
         * math.js
     * node_modules
+
 src/math.js：
 ```js
 export function square(x) {
