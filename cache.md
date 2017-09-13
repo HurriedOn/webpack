@@ -45,3 +45,8 @@ function component() {
 
 document.body.appendChild(component());
 ```
+运行命令：
+```dash
+$ webpack
+```
+如果我们不做修改，然后再次运行构建，我们的文件名按照期望，依然保持不变。然而，如果我们修改内容再次运行，文件名会改变。
