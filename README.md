@@ -10,6 +10,4 @@ essays,original：https://doc.webpack-china.org
 + [Webpack--缓存](./cache.md)
 
 
-## webpack loader
-安装babel，进入http://babeljs.io/docs/setup/#installation 选择webpack查看安装（Installation）命令
 
